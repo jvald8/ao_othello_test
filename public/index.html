@@ -17,8 +17,8 @@
 
   <table>
     <tr ng-repeat="row in playingField">
-      <td ng-repeat="cell in row" ng-class="{'black': cell.color == 'black'" ng-click='checkRight(cell); checkBelow(cell); checkLeft(cell); checkAbove(cell)'>
-        {{cell['color']}}
+      <td ng-repeat="cell in row" ng-class="{'black': cell['color'] === 'black', 'white': cell['color'] === 'white'}" ng-click='checkRight(cell); checkBelow(cell); checkLeft(cell); checkAbove(cell)'>
+        <!--{{cell['color']}}-->
       </td>
     </tr>
   </table>
