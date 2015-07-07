@@ -1,0 +1,19 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+td {
+  width: 35px;
+  height: 35px;
+  border-style:solid;
+  border-color:black;
+  background-color: gray;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
